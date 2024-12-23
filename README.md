@@ -58,4 +58,8 @@ airflow dags trigger example_bash_operator
 ```
 <img width="862" alt="image" src="https://github.com/user-attachments/assets/48cfb36b-85a7-46e5-8e7d-4e61d95c4956" />
 
-
+# Create your user-defined DAG
+1. Create your own Python DAG file.
+2. Place the file under `~/airflow/dags`
+3. Run the command `airflow dags list` and check that you see your DAG.
+4. Check that it appears in the UI and enable it.
