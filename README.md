@@ -1,8 +1,9 @@
 # install-airflow-on-aws
 How to install and Run Standalone Apache Airflow on EC2
 
-# Optional: run in a venv
+# Run in a venv
 ```bash
+sudo apt install python3.10-venv
 python3 -m venv .venv
 source .venv/bin/activate
 ```
