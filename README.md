@@ -28,7 +28,7 @@ airflow standalone
 
 # View Console
 Look in the log to the lines starting with “standalone” Find the string: `Login with username: admin  <password>:  ???? ` in the console.
-Open URL : `http://localhost:8080`
+Open URL : [http://localhost:8080](http://localhost:8080)
 Enter user: `admin` + `<password>`
 Enable `example_bash_operator`
 
